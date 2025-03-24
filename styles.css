@@ -83,15 +83,14 @@ code {
     padding: 5px;
     border-radius: 5px;
     font-family: 'Courier New', monospace;
-}
-/* Estilos para el botón de historial */
+/* Estilos para el botón de historial de conversaciones */
 .boton-historial {
     display: inline-block;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    background: linear-gradient(45deg, #4A90E2, #0057D8);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -102,7 +101,7 @@ code {
 }
 
 .boton-historial:hover {
-    background: linear-gradient(45deg, #ff8e53, #ff6b6b);
+    background: linear-gradient(45deg, #0057D8, #4A90E2);
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
