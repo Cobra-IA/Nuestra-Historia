@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos generales */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Enlaces */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+/* Botones */
+button {
+    background-color: #ffcc00;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    background-color: #222;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Estilo para código (Ejemplo de logs o texto especial) */
+code {
+    background: #282c34;
+    color: #ffcc00;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+}
